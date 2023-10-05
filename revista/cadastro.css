@@ -1,0 +1,54 @@
+body{
+    background-image: url(whatsapp.jpeg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+
+}
+
+form{
+    box-align: center;
+    background-color: whitesmoke;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 2;
+    letter-spacing: 1px;
+    padding-top: 1em;
+    padding-bottom:1em;
+    max-width: 600px;
+    margin-left: 600px;
+    margin-top: 160px;
+    font-family: fantasy;
+}
+
+input:focus {
+    border-color: blue !important;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: green;
+}
+
+span {
+    position: relative;
+}
+
+input:valid + span::before {
+    content: '✓';
+    color: green;
+}
+
+input:invalid + span::before {
+    content: '✖';
+    color: red;
+}
+
+input + span::before{
+    position:absolute;
+    right: 1px;
+    top: -1px;
+}

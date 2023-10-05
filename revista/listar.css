@@ -1,0 +1,28 @@
+table{
+    width: 100% ;
+    border: 4px solid gold;
+    width: 50%; /*Importante manter o !important rs */
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px !important;
+    background-color: green;
+    color: white;
+    padding-top: 10em;
+    border-radius: 25px;
+    text-align: center;
+}
+body{
+    background-image: url(whatsapp.jpeg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+button{
+    margin-left: 650px;
+    margin-top: 25px;
+    background-color: green;
+    color: white;
+    border-radius: 25px;
+}
+a{
+    color: white;
+}

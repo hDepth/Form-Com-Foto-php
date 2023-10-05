@@ -1,0 +1,21 @@
+p{
+    box-align: center;
+    background-color: green;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 2;
+    letter-spacing: 1px;
+    padding-top: 1em;
+    padding-bottom:1em;
+    max-width: 500px;
+    margin-left: 500px;
+    margin-top: 10px;
+    font-family: fantasy;
+    font-size: medium;
+}
+body{
+    background-image: url(whatsapp.jpeg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
